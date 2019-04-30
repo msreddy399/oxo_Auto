@@ -12,8 +12,8 @@ import cucumber.api.junit.Cucumber;
 		features="src/test/resources/features/web",
 		glue= "com.oxo.qe.test.stepdefinition.web",
 		monochrome=true, 
-		dryRun=true,
-		tags= {"@OXO_ORDER_01"},
+		dryRun=false,
+		//tags= {"@OXO_ORDER_01"},
     	format={"pretty","html:target/cucumber-reports/cucumber-html-reports", "json:target/cucumber-reports/cucumber-html-reports/common.json"}		
 		/*plugin={ "html:target/cucumber-html-reports", "json:target/cucumber.json",
 		          "pretty:target/cucumber-pretty.txt", "junit:target/cucumber-results.xml" }*/		
