@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 		glue= "com.oxo.qe.test.stepdefinition.web",
 		monochrome=true, 
 		dryRun=false,
-		//tags= {"@OXO_ORDER_01"},
+		tags= {"@OXO_HOMEPAGE_01"},
     	format={"pretty","html:target/cucumber-reports/cucumber-html-reports", "json:target/cucumber-reports/cucumber-html-reports/common.json"}		
 		/*plugin={ "html:target/cucumber-html-reports", "json:target/cucumber.json",
 		          "pretty:target/cucumber-pretty.txt", "junit:target/cucumber-results.xml" }*/		
